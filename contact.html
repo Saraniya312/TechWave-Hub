@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact TechWave Hub</title>
+    <meta
+      name="description"
+      content="Get in touch with TechWave Hub for questions, feedback, or learning support."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="contact-page">
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">TechWave Hub</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="section">
+        <div class="container contact-layout">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h1>We would love to hear from you.</h1>
+            <p>
+              If you have a question, suggestion, or want to share your learning journey, send us a message.
+            </p>
+            <div class="contact-card">
+              <h2>Reach us at</h2>
+              <p>Email: saranisaru12@gmail.com</p>
+              <p>Location: Online learning community</p>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Write your message here" required></textarea>
+            </label>
+            <button class="button primary" type="submit">Send Message</button>
+            <p class="form-note" id="formNote">Thanks for reaching out. We will respond soon.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; <span id="year"></span> TechWave Hub. All rights reserved.</p>
+        <p>Questions and feedback are always welcome.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
